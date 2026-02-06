@@ -1,29 +1,17 @@
 {
-  "name": "wrappy",
-  "version": "1.0.2",
-  "description": "Callback wrapping utility",
-  "main": "wrappy.js",
-  "files": [
-    "wrappy.js"
-  ],
-  "directories": {
-    "test": "test"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "tap": "^2.3.1"
-  },
+  "name": "foodorahub",
+  "version": "1.0.0",
+  "description": "FoodoraHub - Complete Ready-to-Run Online Food Ordering Platform",
+  "main": "server.js",
   "scripts": {
-    "test": "tap --coverage test/*.js"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/npm/wrappy"
-  },
-  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/npm/wrappy/issues"
-  },
-  "homepage": "https://github.com/npm/wrappy"
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "helmet": "^7.0.0",
+    "multer": "^2.0.2",
+    "sqlite3": "^5.0.2"
+  }
 }
